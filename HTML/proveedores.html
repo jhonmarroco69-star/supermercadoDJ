@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado DJ | Proveedores</title>
+    <link href="../CSS/archivos.css" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+
+    <header class="dashboard-topbar">
+        <h1>Supermercado DJ</h1>
+        <div class="dashboard-user">
+            <span>Hola, Usuario</span>
+            <a href="../index.html" class="btn-logout">Cerrar sesión</a>
+        </div>
+    </header>
+
+    <main class="dashboard-container">
+
+        <nav class="breadcrumb">
+            <a href="dashboard.html">Panel principal</a> <span>/</span> <span>Proveedores</span>
+        </nav>
+
+        <div class="page-header">
+            <div>
+                <h2>Proveedores</h2>
+                <p class="dashboard-subtitle">Control de compras y abastecimiento</p>
+            </div>
+            <button type="button" class="btn-submit btn-inline">+ Nuevo proveedor</button>
+        </div>
+
+        <div class="content-card">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Empresa</th>
+                        <th>Contacto</th>
+                        <th>Teléfono</th>
+                        <th>Categoría suministrada</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PRV-001</td>
+                        <td>Distribuidora La Cosecha</td>
+                        <td>Jorge Salas</td>
+                        <td>320 456 7890</td>
+                        <td>Frutas y verduras</td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PRV-002</td>
+                        <td>Lácteos del Valle</td>
+                        <td>Patricia Ruiz</td>
+                        <td>315 222 3344</td>
+                        <td>Lácteos</td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+</body>
+</html>

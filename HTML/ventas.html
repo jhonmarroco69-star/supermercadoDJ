@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado DJ | Ventas</title>
+    <link href="../CSS/archivos.css" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+
+    <!-- Barra superior -->
+    <header class="dashboard-topbar">
+        <h1>Supermercado DJ</h1>
+        <div class="dashboard-user">
+            <span>Hola, Usuario</span>
+            <a href="../index.html" class="btn-logout">Cerrar sesión</a>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="dashboard-container">
+
+        <!-- Ruta de navegación -->
+        <nav class="breadcrumb">
+            <a href="dashboard.html">Panel principal</a> <span>/</span> <span>Ventas</span>
+        </nav>
+
+        <div class="page-header">
+            <div>
+                <h2>Ventas</h2>
+                <p class="dashboard-subtitle">Registro de ventas y facturación</p>
+            </div>
+            <button type="button" class="btn-submit btn-inline">+ Nueva venta</button>
+        </div>
+
+        <!-- Tarjeta de contenido -->
+        <div class="content-card">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>N° Factura</th>
+                        <th>Fecha</th>
+                        <th>Cliente</th>
+                        <th>Productos</th>
+                        <th>Total</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>FAC-1001</td>
+                        <td>18/09/2026</td>
+                        <td>María Torres</td>
+                        <td>5 items</td>
+                        <td>$32.800</td>
+                        <td><span class="status-badge status-pagado">Pagado</span></td>
+                        <td>
+                            <a href="#" class="link-action">Ver</a>
+                            <a href="#" class="link-action link-danger">Anular</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>FAC-1002</td>
+                        <td>19/09/2026</td>
+                        <td>Carlos Pérez</td>
+                        <td>2 items</td>
+                        <td>$9.100</td>
+                        <td><span class="status-badge status-pendiente">Pendiente</span></td>
+                        <td>
+                            <a href="#" class="link-action">Ver</a>
+                            <a href="#" class="link-action link-danger">Anular</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+</body>
+</html>

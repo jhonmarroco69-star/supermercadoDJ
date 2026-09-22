@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado DJ | Crear cuenta</title>
+    <link href="../CSS/archivos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- contenedor de la pagina para registrar cuenta -->  
+    <div class="login-card">
+        <!-- Encabezado informativo -->
+        <div class="login-header">
+            <h1>Crear cuenta</h1>
+            <p>Regístrese para comprar en línea o gestionar el sistema de Supermercado DJ</p>
+        </div>
+
+        <!-- Formulario de registro -->
+        <form action="#" method="POST">
+            <!--Campo de tipo de usuario-->
+            <div class="form-group">
+                <label for="tipo_usuario">Tipo de usuario</label>
+                <select id="tipo_usuario" name="tipo_usuario" class="form-control" required>
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value="cliente">Cliente</option>
+                    <option value="empleado">Empleado</option>
+                </select>
+            </div>
+
+            <!--Campo de nombre--> 
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="Nombre" class="form-control" placeholder="Nombre completo" required>
+            </div>
+
+            <!--Campo de apellido-->
+            <div class="form-group">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="Apellido" class="form-control" placeholder="Apellido completo" required>
+            </div>
+
+            <!--Campo de usuario o Correo electrónico-->
+            <div class="form-group">
+                <label for="username">Correo electrónico</label>
+                <input type="text" id="username" name="username" class="form-control" placeholder="Ej: cliente@correo.com" required>
+            </div>
+
+            <!--Campo de contraseña-->
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Ingrese su contraseña" required>
+            </div>
+
+            <!--Botón de registro-->
+            <button type="submit" class="btn-submit">Crear cuenta</button>
+
+            <!--Pie Página-->
+            <footer class="login-footer">
+                <p>¿Ya tienes una cuenta? <a href="../index.html">Inicia sesión aquí</a></p>
+                <p class="copyright">&copy; 2023 Supermercado DJ. Todos los derechos reservados.</p>
+            </footer>
+        </form>
+    </div>
+</body>
+</html>

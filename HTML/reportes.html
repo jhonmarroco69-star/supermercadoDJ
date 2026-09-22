@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado DJ | Reportes</title>
+    <link href="../CSS/archivos.css" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+
+    <header class="dashboard-topbar">
+        <h1>Supermercado DJ</h1>
+        <div class="dashboard-user">
+            <span>Hola, Usuario</span>
+            <a href="../index.html" class="btn-logout">Cerrar sesión</a>
+        </div>
+    </header>
+
+    <main class="dashboard-container">
+
+        <nav class="breadcrumb">
+            <a href="dashboard.html">Panel principal</a> <span>/</span> <span>Reportes</span>
+        </nav>
+
+        <div class="page-header">
+            <div>
+                <h2>Reportes</h2>
+                <p class="dashboard-subtitle">Ventas, ganancias y estadísticas</p>
+            </div>
+        </div>
+
+        <!-- Tarjetas resumen -->
+        <div class="module-grid">
+            <div class="content-card">
+                <p class="dashboard-subtitle">Ventas del mes</p>
+                <h2 style="color: var(--primary-color);">$4.582.300</h2>
+            </div>
+            <div class="content-card">
+                <p class="dashboard-subtitle">Productos vendidos</p>
+                <h2 style="color: var(--primary-color);">1.204</h2>
+            </div>
+            <div class="content-card">
+                <p class="dashboard-subtitle">Clientes nuevos</p>
+                <h2 style="color: var(--primary-color);">37</h2>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Tabla de producto más vendido -->
+        <div class="content-card">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Producto más vendido</th>
+                        <th>Categoría</th>
+                        <th>Unidades vendidas</th>
+                        <th>Ingresos generados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Arroz Diana 500g</td>
+                        <td>Abarrotes</td>
+                        <td>320</td>
+                        <td>$1.120.000</td>
+                    </tr>
+                    <tr>
+                        <td>Leche Alpina 1L</td>
+                        <td>Lácteos</td>
+                        <td>210</td>
+                        <td>$882.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado DJ | Clientes</title>
+    <link href="../CSS/archivos.css" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+
+    <!-- Barra superior -->
+    <header class="dashboard-topbar">
+        <h1>Supermercado DJ</h1>
+        <div class="dashboard-user">
+            <span>Hola, Usuario</span>
+            <a href="../index.html" class="btn-logout">Cerrar sesión</a>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="dashboard-container">
+
+        <!-- Ruta de navegación -->
+        <nav class="breadcrumb">
+            <a href="dashboard.html">Panel principal</a> <span>/</span> <span>Clientes</span>
+        </nav>
+
+        <div class="page-header">
+            <div>
+                <h2>Clientes</h2>
+                <p class="dashboard-subtitle">Consulta y gestión de clientes</p>
+            </div>
+            <button type="button" class="btn-submit btn-inline">+ Nuevo cliente</button>
+        </div>
+
+        <!-- Tarjeta de contenido -->
+        <div class="content-card">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nombre completo</th>
+                        <th>Correo</th>
+                        <th>Teléfono</th>
+                        <th>Compras realizadas</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CLI-001</td>
+                        <td>María Torres</td>
+                        <td>maria.torres@correo.com</td>
+                        <td>300 123 4567</td>
+                        <td>14</td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CLI-002</td>
+                        <td>Carlos Pérez</td>
+                        <td>carlos.perez@correo.com</td>
+                        <td>301 987 6543</td>
+                        <td>3</td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+</body>
+</html>

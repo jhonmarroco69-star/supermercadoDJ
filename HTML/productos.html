@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado DJ | Productos</title>
+    <link href="../CSS/archivos.css" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+
+    <!-- Barra superior -->
+    <header class="dashboard-topbar">
+        <h1>Supermercado DJ</h1>
+        <div class="dashboard-user">
+            <span>Hola, Usuario</span>
+            <a href="../index.html" class="btn-logout">Cerrar sesión</a>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="dashboard-container">
+
+        <!-- Ruta de navegación -->
+        <nav class="breadcrumb">
+            <a href="dashboard.html">Panel principal</a> <span>/</span> <span>Productos</span>
+        </nav>
+
+        <div class="page-header">
+            <div>
+                <h2>Productos</h2>
+                <p class="dashboard-subtitle">Gestión de inventario y stock</p>
+            </div>
+            <button type="button" class="btn-submit btn-inline">+ Agregar producto</button>
+        </div>
+
+        <!-- Tarjeta de contenido -->
+        <div class="content-card">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nombre</th>
+                        <th>Categoría</th>
+                        <th>Stock</th>
+                        <th>Precio</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>P-001</td>
+                        <td>Arroz Diana 500g</td>
+                        <td>Abarrotes</td>
+                        <td>120</td>
+                        <td>$3.500</td>
+                        <td><span class="status-badge status-pagado">Disponible</span></td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P-002</td>
+                        <td>Leche Alpina 1L</td>
+                        <td>Lácteos</td>
+                        <td>45</td>
+                        <td>$4.200</td>
+                        <td><span class="status-badge status-pagado">Disponible</span></td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P-003</td>
+                        <td>Aceite Girasol 1L</td>
+                        <td>Abarrotes</td>
+                        <td>6</td>
+                        <td>$8.900</td>
+                        <td><span class="status-badge status-pendiente">Stock bajo</span></td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+</body>
+</html>

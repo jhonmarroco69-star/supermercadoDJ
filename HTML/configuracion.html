@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado DJ | Configuración</title>
+    <link href="../CSS/archivos.css" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+
+    <header class="dashboard-topbar">
+        <h1>Supermercado DJ</h1>
+        <div class="dashboard-user">
+            <span>Hola, Usuario</span>
+            <a href="../index.html" class="btn-logout">Cerrar sesión</a>
+        </div>
+    </header>
+
+    <main class="dashboard-container">
+
+        <nav class="breadcrumb">
+            <a href="dashboard.html">Panel principal</a> <span>/</span> <span>Configuración</span>
+        </nav>
+
+        <div class="page-header">
+            <div>
+                <h2>Configuración</h2>
+                <p class="dashboard-subtitle">Ajustes generales del sistema</p>
+            </div>
+        </div>
+
+        <div class="content-card">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre_negocio">Nombre del supermercado</label>
+                    <input type="text" id="nombre_negocio" name="nombre_negocio" class="form-control" value="Supermercado DJ">
+                </div>
+
+                <div class="form-group">
+                    <label for="correo_contacto">Correo de contacto</label>
+                    <input type="email" id="correo_contacto" name="correo_contacto" class="form-control" placeholder="contacto@supermercadodj.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion" name="direccion" class="form-control" placeholder="Ej: Calle 10 #5-30">
+                </div>
+
+                <div class="form-group">
+                    <label for="moneda">Moneda</label>
+                    <select id="moneda" name="moneda" class="form-control">
+                        <option value="COP" selected>Peso colombiano (COP)</option>
+                        <option value="USD">Dólar estadounidense (USD)</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-submit btn-inline">Guardar cambios</button>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+</html>

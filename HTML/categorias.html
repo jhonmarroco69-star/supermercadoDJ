@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado DJ | Categorías</title>
+    <link href="../CSS/archivos.css" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+
+    <header class="dashboard-topbar">
+        <h1>Supermercado DJ</h1>
+        <div class="dashboard-user">
+            <span>Hola, Usuario</span>
+            <a href="../index.html" class="btn-logout">Cerrar sesión</a>
+        </div>
+    </header>
+
+    <main class="dashboard-container">
+
+        <nav class="breadcrumb">
+            <a href="dashboard.html">Panel principal</a> <span>/</span> <span>Categorías</span>
+        </nav>
+
+        <div class="page-header">
+            <div>
+                <h2>Categorías</h2>
+                <p class="dashboard-subtitle">Organización de productos</p>
+            </div>
+            <button type="button" class="btn-submit btn-inline">+ Nueva categoría</button>
+        </div>
+
+        <div class="content-card">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>N° de productos</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CAT-001</td>
+                        <td>Abarrotes</td>
+                        <td>Arroz, aceites, granos y enlatados</td>
+                        <td>48</td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CAT-002</td>
+                        <td>Lácteos</td>
+                        <td>Leches, quesos y yogures</td>
+                        <td>22</td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CAT-003</td>
+                        <td>Frutas y verduras</td>
+                        <td>Productos frescos de temporada</td>
+                        <td>35</td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+</body>
+</html>

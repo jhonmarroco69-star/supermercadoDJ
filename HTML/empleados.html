@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado DJ | Empleados</title>
+    <link href="../CSS/archivos.css" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+
+    <!-- Barra superior -->
+    <header class="dashboard-topbar">
+        <h1>Supermercado DJ</h1>
+        <div class="dashboard-user">
+            <span>Hola, Usuario</span>
+            <a href="../index.html" class="btn-logout">Cerrar sesión</a>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="dashboard-container">
+
+        <!-- Ruta de navegación -->
+        <nav class="breadcrumb">
+            <a href="dashboard.html">Panel principal</a> <span>/</span> <span>Empleados</span>
+        </nav>
+
+        <div class="page-header">
+            <div>
+                <h2>Empleados</h2>
+                <p class="dashboard-subtitle">Gestión de personal</p>
+            </div>
+            <button type="button" class="btn-submit btn-inline">+ Nuevo empleado</button>
+        </div>
+
+        <!-- Tarjeta de contenido -->
+        <div class="content-card">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nombre completo</th>
+                        <th>Cargo</th>
+                        <th>Correo</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>EMP-001</td>
+                        <td>Laura Gómez</td>
+                        <td>Cajera</td>
+                        <td>laura.gomez@supermercadodj.com</td>
+                        <td><span class="status-badge status-pagado">Activo</span></td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>EMP-002</td>
+                        <td>Andrés Ríos</td>
+                        <td>Administrador</td>
+                        <td>andres.rios@supermercadodj.com</td>
+                        <td><span class="status-badge status-pagado">Activo</span></td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>EMP-003</td>
+                        <td>Sofía Martínez</td>
+                        <td>Reponedora</td>
+                        <td>sofia.martinez@supermercadodj.com</td>
+                        <td><span class="status-badge status-pendiente">Inactivo</span></td>
+                        <td>
+                            <a href="#" class="link-action">Editar</a>
+                            <a href="#" class="link-action link-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+</body>
+</html>
